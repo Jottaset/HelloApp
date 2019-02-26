@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:HelloApp" x:Class="HelloApp.MainPage">
+    <StackLayout>
+        <!-- Place new controls here -->
+        <Label Text="Texto de Teste 1!"
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand" 
+               FontAttributes="Bold, Italic"
+               TextColor="Blue"
+               
+               />
+        
+        <Label Text="Texto de Teste 2!"
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand" 
+               FontAttributes="Italic"
+               TextColor="Navy"  
+                      
+               />
+        
+        <Label Text="Texto de Teste 3!"
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand" 
+               FontAttributes="Bold"
+               TextColor="Purple"
+               />
+    </StackLayout>
+</ContentPage>
